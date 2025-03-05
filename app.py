@@ -83,7 +83,7 @@ prompt = ChatPromptTemplate.from_template("""
     If the provided question is personal like his age, his relationship status, etc., state:
     "I'm sorry, I can't provide that information, Vanshaj values his privacy." 
 
-    If the provided context is insufficient, state:
+    If the provided question is not about vanshaj, or the context is insufficient, state:
     "The answer is generated based on general knowledge.", and answer using your general knowledge.
     """)
 
