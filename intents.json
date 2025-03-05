@@ -1,0 +1,135 @@
+{
+    "intents": [
+        {
+            "tag": "capability",
+            "patterns": [
+                "What can you do?",
+                "What is your purpose?",
+                "What are you capable of?",
+                "How can you help me?"
+            ],
+            "responses": [
+                "I am a chatbot designed to answer questions about Vanshaj Raghuvanshi. I can provide details about his education, skills, projects, experience, and socials."
+            ]
+        },
+        {
+            "tag": "about_vanshaj",
+            "patterns": [
+                "Who is Vanshaj Raghuvanshi?",
+                "Tell me about Vanshaj",
+                "What does Vanshaj do?",
+                "Who is he?"
+            ],
+            "responses": [
+                "Vanshaj Raghuvanshi is a Computer Science and Engineering student at Thapar Institute of Engineering and Technology. He specializes in AI, ML, and software development. Ask me more to learn about his work!"
+            ]
+        },
+        {
+            "tag": "education",
+            "patterns": [
+                "What is Vanshaj's education?",
+                "Where does Vanshaj study?",
+                "Tell me about his education"
+            ],
+            "responses": [
+                "Vanshaj is pursuing a B.Tech in Computer Science and Engineering at Thapar Institute of Engineering and Technology. His current CGPA is 9.04/10."
+            ]
+        },
+        {
+            "tag": "skills",
+            "patterns": [
+                "What skills does Vanshaj have?",
+                "Tell me about Vanshaj's skills",
+                "What is Vanshaj good at?"
+            ],
+            "responses": [
+                "Vanshaj has expertise in Python, Java, JavaScript, C/C++, ML/DL, OpenCV, SQL/NoSQL Databses, Vector Stores, AWS, and focusing on Generative AI."
+            ]
+        },
+        {
+            "tag": "projects",
+            "patterns": [
+                "What projects has Vanshaj worked on?",
+                "Tell me about Vanshaj's projects",
+                "Any interesting work by Vanshaj?"
+            ],
+            "responses": [
+                "Vanshaj has worked on multiple projects across AI, ML, NLP, and web development. Here are some notable ones:\n\n",
+                "- **Object Detection**: A Python GUI application that identifies objects from the COCO dataset in both live feed and images. [Live Demo](https://objects-vanshajr.streamlit.app) | [GitHub](https://github.com/VanshajR/ObjectDetection)\n",
+                "- **Zenith**: A website for a 3-day tech event involving a cryptic hunt. [GitHub](https://github.com/VanshajR/ZenithCryptic)\n",
+                "- **Nexus Q&A**: A chatbot using LLMs and RAG to answer questions about Vanshaj. [GitHub](https://github.com/VanshajR/Nexus-QA)\n",
+                "- **Facial Recognition**: A Python application for training and detecting faces in datasets, supporting live feed and images. [GitHub](https://github.com/VanshajR/FacialRecognition)\n",
+                "- **Branchify**: A published Python package that creates a folder structure with customizable parameters. [PyPi](https://pypi.org/project/branchify/) | [GitHub](https://github.com/VanshajR/Branchify)\n",
+                "- **ChatPDF**: A Streamlit app to upload PDFs and query their content. [GitHub](https://github.com/VanshajR/ZenithCryptic)\n",
+                "- **Linear Equations Solver**: An Android app to solve systems of linear equations up to 20 variables. [GitHub](https://github.com/VanshajR/LinearEquationSolver)\n",
+                "- **AutoQuote**: A VS Code extension for automatic insertion of quotes in code. [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=VanshajRaghuvanshi.auto-quote) | [GitHub](https://github.com/VanshajR/AutoQuote)\n",
+                "- **Healix**: A Python GUI app for managing patient/staff records and appointments with a PostgreSQL backend. [GitHub](https://github.com/VanshajR/Healix)\n",
+                "- **Cypher the ChatBot**: A rule-based chatbot using NLP and neural networks. [Live Demo](https://cypher-chat.streamlit.app) | [GitHub](https://github.com/VanshajR/ChatBot)\n",
+                "- **Physics Experiments Solver**: A GUI app to solve and visualize physics experiments from Vanshaj’s first year. [GitHub](https://github.com/VanshajR/Physics-Experiment-Result-Visualiser)\n",
+                "- **Artificial Neural Network Implementation**: Predicts customer retention using an ANN model. [Live Demo](https://ann-prac-vanshajr.streamlit.app) | [GitHub](https://github.com/VanshajR/ANN-Implementation)\n",
+                "- **Pneumonia Detection**: A CNN-based model that predicts pneumonia in X-ray images, comparing results with PCA, SVM, and Logistic Regression. [Live Demo](https://pneumonia-vanshajr.streamlit.app) | [GitHub](https://github.com/VanshajR/Pneumonia_Detection)\n",
+                "- **Movie Review Classification**: A Streamlit app using an RNN model to classify movie reviews. [Live Demo](https://review-classify.streamlit.app) | [GitHub](https://github.com/VanshajR/RNN-Review-Classification)\n",
+                "- **Handwritten Digit Recognition**: Uses a trained LightGBM model to recognize handwritten digits. [Live Demo](https://vanshajr-digit-recognition-lightgbm-app-99enas.streamlit.app) | [GitHub](https://github.com/VanshajR/Digit-Recognition-LightGBM)\n",
+                "- **Next Word Prediction**: An LSTM-based model trained on Shakespeare’s Hamlet to predict the next word in a sentence. [Live Demo](https://vanshajr-lstm-next-word-app-yrrb4v.streamlit.app) | [GitHub](https://github.com/VanshajR/LSTM-Next-Word)\n",
+                "- **ReVig and Neural Network Ciphers**: Encrypts and decrypts text using a modified Vigenère cipher and a custom neural network cipher. [Live Demo](https://cipher-vanshajr.streamlit.app/) | [GitHub](https://github.com/VanshajR/Ciphers)\n\n",
+                "For more, check out Vanshaj's GitHub: [github.com/VanshajR](https://github.com/VanshajR)."
+            ]
+        },
+        {
+            "tag": "experience",
+            "patterns": [
+                "Does Vanshaj have any work experience?",
+                "Tell me about Vanshaj's work experience",
+                "Where has Vanshaj worked?"
+            ],
+            "responses": [
+                "Vanshaj has interned at Meril, a medical company; Techplement, an IT services company, and CodeClause, contributing to AI and ML development. He has also worked with the Kshitiksha Foundation and held technical leadership roles at TIET.",
+                "At Thapar, he is currently the Technical Lead at the Thapar Institue Counselling Cell, and a mental health ambassador. He has also been the technical head at Backslash Computing Society."
+            ]
+        },
+        {
+            "tag": "portfolio",
+            "patterns": [
+                "Where can I see Vanshaj's work?",
+                "Does Vanshaj have a portfolio?",
+                "Tell me about his portfolio"
+            ],
+            "responses": [
+                "Check out Vanshaj's portfolio here: https://vanshajraghuvanshi.me/"
+            ]
+        },
+        {
+            "tag": "github",
+            "patterns": [
+                "What is Vanshaj's GitHub?",
+                "Show me Vanshaj's GitHub",
+                "Where can I see his code?"
+            ],
+            "responses": [
+                "Explore Vanshaj's GitHub repositories here: https://github.com/VanshajR/"
+            ]
+        },
+        {
+            "tag": "linkedin",
+            "patterns": [
+                "Does Vanshaj have a LinkedIn?",
+                "What is Vanshaj's LinkedIn?",
+                "Show me his LinkedIn profile"
+            ],
+            "responses": [
+                "Connect with Vanshaj on LinkedIn: https://linkedin.com/in/vanshajraghuvanshi/"
+            ]
+        },
+        {
+            "tag": "socials",
+            "patterns": [
+                "What are his socials?",
+                "How can I contact Vanshaj?",
+                "Does Vanshaj have social media?"
+            ],
+            "responses": [
+                "Here are Vanshaj's socials:\n- LinkedIn: https://linkedin.com/in/vanshajraghuvanshi\n- GitHub: https://github.com/VanshajR\n- Portfolio: https://vanshajraghuvanshi.me\n- Email: vanshajraghuvanshi@gmail.com"
+            ]
+        }
+    ]
+}
