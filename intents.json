@@ -54,25 +54,7 @@
                 "Any interesting work by Vanshaj?"
             ],
             "responses": [
-                "Vanshaj has worked on multiple projects across AI, ML, NLP, and web development. Here are some notable ones:\n\n",
-                "- **Object Detection**: A Python GUI application that identifies objects from the COCO dataset in both live feed and images. [Live Demo](https://objects-vanshajr.streamlit.app) | [GitHub](https://github.com/VanshajR/ObjectDetection)\n",
-                "- **Zenith**: A website for a 3-day tech event involving a cryptic hunt. [GitHub](https://github.com/VanshajR/ZenithCryptic)\n",
-                "- **Nexus Q&A**: A chatbot using LLMs and RAG to answer questions about Vanshaj. [GitHub](https://github.com/VanshajR/Nexus-QA)\n",
-                "- **Facial Recognition**: A Python application for training and detecting faces in datasets, supporting live feed and images. [GitHub](https://github.com/VanshajR/FacialRecognition)\n",
-                "- **Branchify**: A published Python package that creates a folder structure with customizable parameters. [PyPi](https://pypi.org/project/branchify/) | [GitHub](https://github.com/VanshajR/Branchify)\n",
-                "- **ChatPDF**: A Streamlit app to upload PDFs and query their content. [GitHub](https://github.com/VanshajR/ZenithCryptic)\n",
-                "- **Linear Equations Solver**: An Android app to solve systems of linear equations up to 20 variables. [GitHub](https://github.com/VanshajR/LinearEquationSolver)\n",
-                "- **AutoQuote**: A VS Code extension for automatic insertion of quotes in code. [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=VanshajRaghuvanshi.auto-quote) | [GitHub](https://github.com/VanshajR/AutoQuote)\n",
-                "- **Healix**: A Python GUI app for managing patient/staff records and appointments with a PostgreSQL backend. [GitHub](https://github.com/VanshajR/Healix)\n",
-                "- **Cypher the ChatBot**: A rule-based chatbot using NLP and neural networks. [Live Demo](https://cypher-chat.streamlit.app) | [GitHub](https://github.com/VanshajR/ChatBot)\n",
-                "- **Physics Experiments Solver**: A GUI app to solve and visualize physics experiments from Vanshaj’s first year. [GitHub](https://github.com/VanshajR/Physics-Experiment-Result-Visualiser)\n",
-                "- **Artificial Neural Network Implementation**: Predicts customer retention using an ANN model. [Live Demo](https://ann-prac-vanshajr.streamlit.app) | [GitHub](https://github.com/VanshajR/ANN-Implementation)\n",
-                "- **Pneumonia Detection**: A CNN-based model that predicts pneumonia in X-ray images, comparing results with PCA, SVM, and Logistic Regression. [Live Demo](https://pneumonia-vanshajr.streamlit.app) | [GitHub](https://github.com/VanshajR/Pneumonia_Detection)\n",
-                "- **Movie Review Classification**: A Streamlit app using an RNN model to classify movie reviews. [Live Demo](https://review-classify.streamlit.app) | [GitHub](https://github.com/VanshajR/RNN-Review-Classification)\n",
-                "- **Handwritten Digit Recognition**: Uses a trained LightGBM model to recognize handwritten digits. [Live Demo](https://vanshajr-digit-recognition-lightgbm-app-99enas.streamlit.app) | [GitHub](https://github.com/VanshajR/Digit-Recognition-LightGBM)\n",
-                "- **Next Word Prediction**: An LSTM-based model trained on Shakespeare’s Hamlet to predict the next word in a sentence. [Live Demo](https://vanshajr-lstm-next-word-app-yrrb4v.streamlit.app) | [GitHub](https://github.com/VanshajR/LSTM-Next-Word)\n",
-                "- **ReVig and Neural Network Ciphers**: Encrypts and decrypts text using a modified Vigenère cipher and a custom neural network cipher. [Live Demo](https://cipher-vanshajr.streamlit.app/) | [GitHub](https://github.com/VanshajR/Ciphers)\n\n",
-                "For more, check out Vanshaj's GitHub: [github.com/VanshajR](https://github.com/VanshajR)."
+                "Vanshaj has worked on multiple projects across AI, ML, NLP, and web development. Please visit https://vanshajraghuvanshi.me/ to see them in one place.:\n\n"
             ]
         },
         {

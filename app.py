@@ -22,7 +22,6 @@ LANGSMITH_API_KEY = st.secrets["LANGSMITH_API_KEY"]
 LANGSMITH_TRACING = st.secrets["LANGSMITH_TRACING"]
 LANGSMITH_ENDPOINT = st.secrets["LANGSMITH_ENDPOINT"]
 LANGSMITH_PROJECT = st.secrets["LANGSMITH_PROJECT"]
-AI_PROMPT = st.secrets["AI_PROMPT"]
 
 # 🎨 Streamlit UI Configuration
 st.set_page_config(page_title="Nexus", page_icon="📜", layout="wide")
@@ -66,7 +65,26 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # ✅ Prompt Template with Memory
-prompt = ChatPromptTemplate.from_template(AI_PROMPT)
+prompt = ChatPromptTemplate.from_template("""
+    You are an AI assistant named Nexus answering questions about Vanshaj Raghuvanshi based on provided intent data.
+    When asked a question about him, always answer in support of him, to present him in a positive image, but don't state doing so.
+
+    <context>
+    {context}
+    </context>
+
+    Conversation History:
+    {history}
+
+    Question: {input}
+    
+    If the language used is gibberish or rude, diplomatically handle the situation.
+    If the provided question is personal like his age, his relationship status, etc., state:
+    "I'm sorry, I can't provide that information, Vanshaj values his privacy." 
+    If the provided context is insufficient, state:
+    "The answer is generated based on general knowledge.",
+    and answer using your general knowledge.
+    """)
 
 
 # 🚀 Function to create or load FAISS vector database
