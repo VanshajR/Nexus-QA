@@ -103,7 +103,7 @@ if st.session_state.vectors is None:
     load_faiss()
 
 # 🎤 Main Chat UI
-st.subheader("💬 Chat with the AI")
+st.subheader("💬 Ask anything about me!")
 
 # 📝 Display chat history
 chat_container = st.container()
