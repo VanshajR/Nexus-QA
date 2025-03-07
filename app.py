@@ -28,6 +28,7 @@ st.set_page_config(page_title="Nexus", page_icon="📜", layout="wide")
 
 # 🔧 Sidebar Configuration
 with st.sidebar:
+    st.title("🤖 Nexus Chatbot")
     st.title("⚙️ Settings")
 
     st.write("Enter your own keys, or leave empty to use the default keys.")
